@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://physical-ai.github.io',
+  url: 'https://mussawirsohail.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Hackathon_1_By_Mussawir/docs/',
+  baseUrl: '/Hackathon_1_By_Mussawir/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'physical-ai', // Usually your GitHub org/user name.
-  projectName: 'humanoid-robotics-book', // Usually your repo name.
+  organizationName: 'mussawirsohail', // Usually your GitHub org/user name.
+  projectName: 'Hackathon_1_By_Mussawir', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
