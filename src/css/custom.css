@@ -1,0 +1,122 @@
+/* Custom CSS for Physical AI & Humanoid Robotics Book */
+
+/* Custom colors for the book theme */
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1a47c4;
+  --ifm-color-primary-darkest: #153a9f;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #4f8bff;
+  --ifm-color-primary-lightest: #6c9ffd;
+}
+
+/* Custom styling for lesson objectives */
+.lesson-objectives {
+  background-color: #f0f9ff;
+  border-left: 4px solid #2563eb;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.lesson-objectives h3 {
+  margin-top: 0;
+  color: #1d4ed8;
+}
+
+/* Custom styling for exercises sections */
+.exercises-section {
+  background-color: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.exercises-section h3 {
+  color: #0f172a;
+  border-bottom: 1px solid #cbd5e1;
+  padding-bottom: 8px;
+}
+
+/* Custom styling for code examples */
+.admonition.admonition-caution {
+  border-left-color: #f59e0b;
+}
+
+.admonition.admonition-note {
+  border-left-color: #3b82f6;
+}
+
+/* Styling for diagrams */
+.diagram-container {
+  text-align: center;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+}
+
+.diagram-caption {
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  color: #64748b;
+}
+
+/* Custom styling for self-assessment sections */
+.self-assessment {
+  background-color: #f0fdf4;
+  border-left: 4px solid #10b981;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Enhance readability for code blocks */
+.prism-code {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Custom styling for lesson navigation */
+.lesson-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* Style for the capstone project section */
+.capstone-highlight {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  border-left: 4px solid #f59e0b;
+}
+
+/* Custom table styles */
+.markdown table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.markdown table th,
+.markdown table td {
+  word-wrap: break-word;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .lesson-objectives,
+  .exercises-section,
+  .self-assessment {
+    padding: 12px;
+  }
+}
