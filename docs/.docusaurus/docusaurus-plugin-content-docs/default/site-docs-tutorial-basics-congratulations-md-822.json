@@ -8,11 +8,20 @@
   "permalink": "/docs/tutorial-basics/congratulations",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/physical-ai/humanoid-robotics-book/docs/tutorial-basics/congratulations.md",
+  "editUrl": "https://github.com/your-org/physical-ai-book/edit/main/docs/tutorial-basics/congratulations.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 6,
   "frontMatter": {
     "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/tutorial-basics/deploy-your-site"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
   }
 }

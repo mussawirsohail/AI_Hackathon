@@ -8,11 +8,20 @@
   "permalink": "/docs/tutorial-basics/create-a-blog-post",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/physical-ai/humanoid-robotics-book/docs/tutorial-basics/create-a-blog-post.md",
+  "editUrl": "https://github.com/your-org/physical-ai-book/edit/main/docs/tutorial-basics/create-a-blog-post.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Document",
+    "permalink": "/docs/tutorial-basics/create-a-document"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/docs/tutorial-basics/markdown-features"
   }
 }

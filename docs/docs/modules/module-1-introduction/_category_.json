@@ -1,0 +1,10 @@
+{
+  "label": "Module 1: Introduction",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Module 1: Introduction",
+    "description": "Getting started with the basics",
+    "slug": "/modules/module-1-introduction"
+  }
+}

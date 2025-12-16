@@ -8,11 +8,20 @@
   "permalink": "/docs/tutorial-basics/deploy-your-site",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/physical-ai/humanoid-robotics-book/docs/tutorial-basics/deploy-your-site.md",
+  "editUrl": "https://github.com/your-org/physical-ai-book/edit/main/docs/tutorial-basics/deploy-your-site.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Markdown Features",
+    "permalink": "/docs/tutorial-basics/markdown-features"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
   }
 }

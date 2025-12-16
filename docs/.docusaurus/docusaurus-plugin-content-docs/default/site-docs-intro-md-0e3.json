@@ -1,25 +1,23 @@
 {
   "id": "intro",
-  "title": "Introduction to Physical AI & Humanoid Robotics",
-  "description": "An overview of the Physical AI & Humanoid Robotics book",
+  "title": "Physical AI & Humanoid Robotics",
+  "description": "Welcome to your comprehensive guide on Physical AI & Humanoid Robotics. This book covers everything from fundamental concepts to advanced implementations in robotics.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/physical-ai/humanoid-robotics-book/docs/intro.md",
+  "editUrl": "https://github.com/your-org/physical-ai-book/edit/main/docs/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "title": "Introduction to Physical AI & Humanoid Robotics",
-    "sidebar_position": 1,
-    "description": "An overview of the Physical AI & Humanoid Robotics book"
+    "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Getting Started",
-    "permalink": "/docs/getting-started"
+    "title": "Lesson 1: Introduction to ROS 2",
+    "permalink": "/docs/modules/module-1-ros2/lesson-1-introduction-to-ros2"
   }
 }

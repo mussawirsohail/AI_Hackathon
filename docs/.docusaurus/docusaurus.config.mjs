@@ -5,7 +5,7 @@
  */
 export default {
   "title": "Physical AI & Humanoid Robotics",
-  "tagline": "A comprehensive guide to building intelligent humanoid robots",
+  "tagline": "Your Complete Guide to Physical AI & Humanoid Robotics",
   "favicon": "img/favicon.ico",
   "future": {
     "v4": {
@@ -30,9 +30,10 @@ export default {
   },
   "url": "https://physical-ai-book.example.com",
   "baseUrl": "/",
-  "organizationName": "physical-ai",
-  "projectName": "humanoid-robotics-book",
+  "organizationName": "your-org",
+  "projectName": "physical-ai-book",
   "onBrokenLinks": "throw",
+  "onBrokenAnchors": "throw",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -46,8 +47,8 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/physical-ai/humanoid-robotics-book/"
+          "sidebarPath": "./sidebars.js",
+          "editUrl": "https://github.com/your-org/physical-ai-book/edit/main/"
         },
         "blog": {
           "showReadingTime": true,
@@ -58,7 +59,7 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/physical-ai/humanoid-robotics-book/",
+          "editUrl": "https://github.com/your-org/physical-ai-book/edit/main/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -70,7 +71,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/robotics-social-card.jpg",
+    "image": "img/docusaurus-social-card.jpg",
     "colorMode": {
       "respectPrefersColorScheme": true,
       "defaultMode": "light",
@@ -90,23 +91,8 @@ export default {
           "label": "Modules"
         },
         {
-          "to": "/docs/module-1-the-robotic-nervous-system/intro",
-          "label": "Module 1",
-          "position": "left"
-        },
-        {
-          "to": "/docs/module-2-the-digital-twin/intro",
-          "label": "Module 2",
-          "position": "left"
-        },
-        {
-          "to": "/docs/module-3-the-ai-robot-brain/intro",
-          "label": "Module 3",
-          "position": "left"
-        },
-        {
-          "to": "/docs/module-4-vision-language-action/intro",
-          "label": "Module 4",
+          "to": "/docs/intro",
+          "label": "Book",
           "position": "left"
         },
         {
@@ -115,7 +101,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/physical-ai/humanoid-robotics-book",
+          "href": "https://github.com/your-username/physical-ai-book",
           "label": "GitHub",
           "position": "right"
         }
@@ -126,23 +112,36 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Modules",
+          "title": "Documentation",
           "items": [
             {
-              "label": "The Robotic Nervous System",
-              "to": "/docs/module-1-the-robotic-nervous-system/intro"
+              "label": "Introduction",
+              "to": "/docs/intro"
             },
             {
-              "label": "The Digital Twin",
-              "to": "/docs/module-2-the-digital-twin/intro"
+              "label": "ROS 2 Framework",
+              "to": "/docs/ros2"
             },
             {
-              "label": "The AI-Robot Brain",
-              "to": "/docs/module-3-the-ai-robot-brain/intro"
+              "label": "Humanoid Robotics",
+              "to": "/docs/humanoid"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "items": [
+            {
+              "label": "Physical AI Concepts",
+              "to": "/docs/physical-ai"
             },
             {
-              "label": "Vision-Language-Action",
-              "to": "/docs/module-4-vision-language-action/intro"
+              "label": "Simulation Environments",
+              "to": "/docs/simulation"
+            },
+            {
+              "label": "Case Studies",
+              "to": "/docs/case-studies"
             }
           ]
         },
@@ -150,26 +149,21 @@ export default {
           "title": "Community",
           "items": [
             {
+              "label": "GitHub",
+              "href": "https://github.com/your-username/physical-ai-book"
+            },
+            {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/physical-ai"
+              "href": "https://discord.gg/physical-ai"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/physical_ai"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "GitHub",
-              "href": "https://github.com/physical-ai/humanoid-robotics-book"
+              "href": "https://twitter.com/physicalai"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics Project. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics. All rights reserved."
     },
     "prism": {
       "theme": {
@@ -394,7 +388,6 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
-  "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"

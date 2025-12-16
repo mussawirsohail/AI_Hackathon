@@ -1,0 +1,952 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Updated color palette for Physical AI & Humanoid Robotics theme */
+:root {
+  --ifm-color-primary: #1F6FFF; /* Neural blue */
+  --ifm-color-primary-dark: #1457d9;
+  --ifm-color-primary-darker: #0f43a7;
+  --ifm-color-primary-darkest: #0a2f75;
+  --ifm-color-primary-light: #4a8eff;
+  --ifm-color-primary-lighter: #75b3ff;
+  --ifm-color-primary-lightest: #a0c9ff;
+  --ifm-color-secondary: #0B0F14; /* Carbon black */
+  --ifm-color-accent: #00E5FF; /* Cyan accent */
+  --ifm-color-success: #4ade80;
+  --ifm-color-warning: #facc15;
+  --ifm-color-danger: #f87171;
+  --ifm-color-gray: #9ba4b5;
+  --ifm-color-gray-dark: #526175;
+  --ifm-color-gray-light: #d1d8e0;
+  --ifm-color-black: #0B0F14;
+  --ifm-color-near-black: #121826;
+  --ifm-color-dark-gray: #1C2333;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Custom variables for Physical AI & Humanoid Robotics theme */
+  --ifm-color-physicalai-primary: #1F6FFF; /* Neural blue */
+  --ifm-color-physicalai-secondary: #0B0F14; /* Carbon black */
+  --ifm-color-physicalai-accent: #00E5FF; /* Cyan accent */
+  --ifm-color-physicalai-bg: #0B0F14; /* Carbon black background */
+  --ifm-color-physicalai-card-bg: #121826; /* Darker carbon black card background */
+  --ifm-color-physicalai-shadow: rgba(0, 0, 0, 0.3);
+  --ifm-color-physicalai-user-bubble: #1F6FFF; /* Neural blue user messages */
+  --ifm-color-physicalai-bot-bubble: #1C2333; /* Dark gray bot messages */
+  --ifm-color-physicalai-text-primary: #E6EDF3;
+  --ifm-color-physicalai-text-muted: #9BA4B5;
+  --ifm-color-physicalai-border-subtle: #1C2333;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #42a5f5;
+  --ifm-color-primary-dark: #1e88e5;
+  --ifm-color-primary-darker: #197cc0;
+  --ifm-color-primary-darkest: #1565c0;
+  --ifm-color-primary-light: #64b5f6;
+  --ifm-color-primary-lighter: #90caf9;
+  --ifm-color-primary-lightest: #bbdefb;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Dark mode specific variables */
+  --ifm-color-physicalai-bg: #121826;
+  --ifm-color-physicalai-card-bg: #1e293b;
+  --ifm-color-physicalai-shadow: rgba(0, 0, 0, 0.3);
+}
+
+/* Main page improvements */
+.hero-banner {
+  background: linear-gradient(135deg, var(--ifm-color-physicalai-primary) 0%, #0d47a1 100%);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-banner h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-banner p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Feature cards styling */
+.feature-section {
+  padding: 4rem 0;
+  background-color: var(--ifm-color-physicalai-bg);
+}
+
+.feature-card {
+  border-radius: 12px;
+  padding: 1.5rem;
+  background-color: var(--ifm-color-physicalai-card-bg);
+  box-shadow: 0 4px 6px var(--ifm-color-physicalai-shadow);
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--ifm-color-gray-light);
+}
+
+/* Removed hover effects from feature-card to meet requirement of static, clean, professional appearance */
+
+/* Code blocks styling */
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation improvements */
+.navbar {
+  box-shadow: 0 2px 4px var(--ifm-color-physicalai-shadow);
+}
+
+/* Footer improvements */
+.footer {
+  background-color: #1a202c;
+  color: white;
+  padding: 3rem 0 2rem;
+}
+
+/* Button improvements */
+.button {
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+}
+
+.button--primary {
+  background-color: var(--ifm-color-physicalai-primary);
+  border-color: var(--ifm-color-physicalai-primary);
+}
+
+/* Removed hover effect from primary buttons to maintain static, clean appearance */
+
+/* Custom classes for images */
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px var(--ifm-color-physicalai-shadow);
+  margin: 2rem 0;
+}
+
+.feature-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Specific styling for lesson images */
+.lesson-image {
+  max-width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Removed hover effect from lesson images to maintain static, clean appearance */
+
+/* Add animation for elements when they come into view */
+.animated-element {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.animated-element.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Styling for sidebar */
+.menu {
+  font-size: 0.9rem;
+}
+
+/* Documentation page styling */
+.doc-page {
+  padding: 2rem 0;
+}
+
+/* Table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--ifm-color-gray-light);
+}
+
+.table th {
+  background-color: var(--ifm-color-gray-light);
+  font-weight: 600;
+}
+
+/* Alert styling */
+.alert {
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.alert--info {
+  background-color: rgba(25, 118, 210, 0.1);
+  border-left-color: var(--ifm-color-physicalai-primary);
+}
+
+.alert--success {
+  background-color: rgba(102, 187, 106, 0.1);
+  border-left-color: var(--ifm-color-success);
+}
+
+.alert--warning {
+  background-color: rgba(255, 193, 7, 0.1);
+  border-left-color: var(--ifm-color-warning);
+}
+
+.alert--danger {
+  background-color: rgba(239, 83, 80, 0.1);
+  border-left-color: var(--ifm-color-danger);
+}
+
+/* Facebook Messenger-style Chatbot */
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.chatbot-fab {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--ifm-color-physicalai-primary) 0%, var(--ifm-color-primary-darker) 100%);
+  color: white;
+  box-shadow: 0 4px 20px rgba(31, 111, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid var(--ifm-color-physicalai-accent);
+}
+
+/* Removed hover effect from chatbot button to maintain static, clean appearance */
+
+.chatbot-fab.unread::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: var(--ifm-color-physicalai-accent);
+  border: 2px solid var(--ifm-color-physicalai-bg);
+}
+
+.chat-window {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 380px;
+  max-width: 90vw;
+  height: 500px;
+  background: linear-gradient(145deg, var(--ifm-color-physicalai-card-bg) 0%, var(--ifm-color-secondary) 100%);
+  border-radius: 20px;
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.5),
+    inset 0 0 15px rgba(31, 111, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform-origin: bottom right;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 9998;
+  opacity: 0;
+  visibility: hidden;
+  border: 1px solid var(--ifm-color-physicalai-border-subtle);
+}
+
+.chat-window.open {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.chat-header {
+  background: linear-gradient(135deg, var(--ifm-color-physicalai-primary) 0%, var(--ifm-color-primary-darker) 100%);
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.chat-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+.close-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+/* Removed hover effect from close button to maintain static, clean appearance */
+
+.messages-container {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  background:
+    radial-gradient(ellipse at top, rgba(31, 111, 255, 0.05) 0%, transparent 70%),
+    radial-gradient(ellipse at bottom, rgba(0, 229, 255, 0.05) 0%, transparent 70%),
+    var(--ifm-color-physicalai-bg);
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 16px;
+  max-width: 85%;
+}
+
+.message.user {
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+
+.message.bot {
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 8px;
+  border: 1px solid var(--ifm-color-physicalai-border-subtle);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.avatar.user {
+  background: linear-gradient(135deg, var(--ifm-color-physicalai-primary) 0%, var(--ifm-color-primary-darker) 100%);
+}
+
+.avatar.bot {
+  background: linear-gradient(135deg, var(--ifm-color-physicalai-secondary) 0%, #1a2338 100%);
+}
+
+.message-content {
+  padding: 12px 16px;
+  border-radius: 18px;
+  margin: 0 8px;
+  position: relative;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.message-content.user {
+  background: linear-gradient(135deg, var(--ifm-color-physicalai-primary) 0%, var(--ifm-color-primary-darker) 100%);
+  color: white;
+  border-bottom-right-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.message-content.bot {
+  background-color: var(--ifm-color-physicalai-bot-bubble);
+  color: white;
+  border-bottom-left-radius: 4px;
+  border: 1px solid var(--ifm-color-physicalai-border-subtle);
+  position: relative;
+  overflow: hidden;
+}
+
+.message-content.bot::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--ifm-color-physicalai-primary), var(--ifm-color-physicalai-accent));
+}
+
+.message-timestamp {
+  display: block;
+  font-size: 0.7rem;
+  text-align: right;
+  margin-top: 4px;
+  opacity: 0.7;
+}
+
+.message.user .message-timestamp {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.message.bot .message-timestamp {
+  color: var(--ifm-color-physicalai-text-muted);
+}
+
+.example-questions {
+  padding: 12px 16px;
+  background-color: rgba(28, 35, 51, 0.7);
+  border-bottom: 1px solid var(--ifm-color-physicalai-border-subtle);
+  border-radius: 8px 8px 0 0;
+  margin: 0 0 8px 0;
+}
+
+.example-questions-title {
+  color: white;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.example-question-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.example-question-chip {
+  background-color: var(--ifm-color-physicalai-bg);
+  color: white;
+  border: 1px solid var(--ifm-color-physicalai-border-subtle);
+  border-radius: 16px;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Removed hover effect from example question chips to maintain static, clean appearance */
+
+.input-area {
+  padding: 16px;
+  background-color: var(--ifm-color-physicalai-card-bg);
+  border-top: 1px solid var(--ifm-color-physicalai-border-subtle);
+  display: flex;
+  align-items: flex-end;
+}
+
+.message-input {
+  flex: 1;
+  border: 1px solid var(--ifm-color-physicalai-border-subtle);
+  border-radius: 24px;
+  padding: 12px 20px;
+  background-color: var(--ifm-color-physicalai-bg);
+  color: white;
+  resize: none;
+  outline: none;
+  max-height: 120px;
+  font-family: inherit;
+}
+
+.message-input:focus {
+  border-color: var(--ifm-color-physicalai-primary);
+  box-shadow: 0 0 0 2px rgba(31, 111, 255, 0.2);
+}
+
+.send-button {
+  background: linear-gradient(135deg, var(--ifm-color-physicalai-primary) 0%, var(--ifm-color-primary-darker) 100%);
+  color: white;
+  border: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 10px rgba(31, 111, 255, 0.3);
+}
+
+/* Removed hover effect from send button to maintain static, clean appearance */
+
+.send-button:disabled {
+  background-color: var(--ifm-color-gray-dark);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.thinking-indicator {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  color: white;
+  font-style: italic;
+}
+
+.typing-indicator {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.typing-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--ifm-color-physicalai-accent);
+  border-radius: 50%;
+  margin: 0 2px;
+  animation: typingAnimation 1.4s infinite ease-in-out;
+}
+
+.typing-dot:nth-child(1) { animation-delay: 0s; }
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typingAnimation {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-5px); }
+}
+
+/* Improved button styles */
+.button--primary {
+  background: linear-gradient(135deg, var(--ifm-color-physicalai-primary) 0%, var(--ifm-color-primary-darker) 100%);
+  border-color: var(--ifm-color-physicalai-primary);
+  color: white;
+  box-shadow: 0 4px 15px rgba(31, 111, 255, 0.3);
+}
+
+/* Removed hover effect from primary buttons to maintain static, clean appearance */
+
+/* Improved navigation */
+.navbar {
+  background-color: var(--ifm-color-physicalai-bg);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid var(--ifm-color-physicalai-border-subtle);
+}
+
+.navbar__inner {
+  padding: 0 1rem;
+}
+
+/* Improved footer */
+.footer {
+  background: linear-gradient(160deg, var(--ifm-color-secondary) 0%, #0a0d12 100%);
+  color: white;
+  padding: 4rem 0 2rem;
+  border-top: 1px solid var(--ifm-color-physicalai-border-subtle);
+}
+
+.footer__title {
+  color: var(--ifm-color-physicalai-accent);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.footer a {
+  color: var(--ifm-color-physicalai-primary-light);
+}
+
+/* Removed hover effect from footer links to maintain static, clean appearance */
+
+/* Feature cards styling */
+.feature-card {
+  border-radius: 16px;
+  padding: 2rem;
+  background: linear-gradient(145deg, var(--ifm-color-physicalai-card-bg) 0%, var(--ifm-color-secondary) 100%);
+  box-shadow:
+    0 8px 16px rgba(0, 0, 0, 0.3),
+    inset 0 0 12px rgba(31, 111, 255, 0.05);
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--ifm-color-physicalai-border-subtle);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, var(--ifm-color-physicalai-primary), var(--ifm-color-physicalai-accent), #5d8fff, var(--ifm-color-physicalai-primary));
+  z-index: -1;
+  border-radius: 18px;
+  background-size: 400% 400%;
+}
+
+/* Hero banner for Physical AI theme */
+.hero-banner {
+  background:
+    radial-gradient(circle at top right, rgba(31, 111, 255, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at bottom left, rgba(0, 229, 255, 0.15) 0%, transparent 40%),
+    linear-gradient(135deg, var(--ifm-color-secondary) 0%, #0a0d12 100%);
+  color: white;
+  padding: 5rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--ifm-color-physicalai-border-subtle);
+}
+
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    linear-gradient(45deg, transparent 68%, rgba(31, 111, 255, 0.05) 70%, transparent 72%),
+    linear-gradient(-45deg, transparent 68%, rgba(31, 111, 255, 0.05) 70%, transparent 72%);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+/* Main wrapper for consistent theme */
+.main-wrapper {
+  background:
+    radial-gradient(circle at 10% 20%, rgba(31, 111, 255, 0.03) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, rgba(0, 229, 255, 0.03) 0%, transparent 20%),
+    var(--ifm-color-physicalai-bg);
+  min-height: 100vh;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Card styling */
+.card {
+  background: linear-gradient(145deg, var(--ifm-color-physicalai-card-bg) 0%, var(--ifm-color-secondary) 100%);
+  border: 1px solid var(--ifm-color-physicalai-border-subtle);
+  border-radius: 16px;
+  color: white;
+  box-shadow:
+    0 6px 12px rgba(0, 0, 0, 0.2),
+    inset 0 0 10px rgba(31, 111, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  background: linear-gradient(45deg, var(--ifm-color-physicalai-primary), var(--ifm-color-physicalai-accent), var(--ifm-color-physicalai-primary));
+  z-index: -1;
+  border-radius: 17px;
+  background-size: 300% 300%;
+  opacity: 0.3;
+}
+
+/* Typography for Physical AI theme */
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-weight: 600;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+}
+
+p {
+  color: white;
+  line-height: 1.7;
+}
+
+/* Links styling */
+a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 2px;
+  transition: color 0.3s ease;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, var(--ifm-color-physicalai-primary), var(--ifm-color-physicalai-accent));
+}
+
+/* Removed hover effect from links to maintain static, clean appearance */
+
+/* Input fields styling */
+input, textarea, select {
+  background: linear-gradient(145deg, var(--ifm-color-physicalai-bg) 0%, #0a0d11 100%);
+  color: white;
+  border: 1px solid var(--ifm-color-physicalai-border-subtle);
+  border-radius: 10px;
+  padding: 12px 18px;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--ifm-color-physicalai-primary);
+  box-shadow:
+    inset 0 2px 8px rgba(0, 0, 0, 0.2),
+    0 0 0 3px rgba(31, 111, 255, 0.2);
+}
+
+/* Buttons styling */
+.btn {
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Removed hover effect from buttons to maintain static, clean appearance */
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--ifm-color-physicalai-primary) 0%, var(--ifm-color-primary-darker) 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(31, 111, 255, 0.3);
+}
+
+/* Removed hover effect from primary buttons to maintain static, clean appearance */
+
+.btn-secondary {
+  background: transparent;
+  color: var(--ifm-color-physicalai-primary-light);
+  border: 2px solid var(--ifm-color-physicalai-primary-light);
+}
+
+/* Removed hover effect from secondary buttons to maintain static, clean appearance */
+
+/* Code blocks for Physical AI theme */
+.code-block {
+  background: linear-gradient(145deg, var(--ifm-color-physicalai-card-bg) 0%, var(--ifm-color-secondary) 100%);
+  color: white;
+  border: 1px solid var(--ifm-color-physicalai-border-subtle);
+  border-radius: 12px;
+  padding: 18px;
+  overflow-x: auto;
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Table styling for Physical AI theme */
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: linear-gradient(145deg, var(--ifm-color-physicalai-card-bg) 0%, var(--ifm-color-secondary) 100%);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.table th {
+  background: linear-gradient(135deg, var(--ifm-color-physicalai-primary) 0%, var(--ifm-color-primary-darker) 100%);
+  color: white;
+  font-weight: 600;
+  padding: 14px;
+  text-align: left;
+}
+
+.table td {
+  padding: 14px;
+  border-bottom: 1px solid var(--ifm-color-physicalai-border-subtle);
+  color: white;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Removed hover effect from table rows to maintain static, clean appearance */
+
+/* Doc page styling */
+.doc-page {
+  padding: 2rem 0;
+  background-color: var(--ifm-color-physicalai-bg);
+}
+
+/* Breadcrumb styling */
+.breadcrumbs li a {
+  color: white;
+}
+
+/* Removed hover effect from breadcrumb links to maintain static, clean appearance */
+
+.breadcrumbs li:first-child a {
+  color: white;
+}
+
+/* Sidebar styling */
+.menu {
+  font-size: 0.95rem;
+}
+
+/* Removed hover effect from menu items to maintain static, clean appearance */
+
+.menu__link {
+  color: white;
+  border-radius: 8px;
+  margin: 2px 0;
+}
+
+/* Removed hover effect from menu links to maintain static, clean appearance */
+
+.menu__link--active {
+  color: white;
+  background: linear-gradient(90deg, rgba(31, 111, 255, 0.15), transparent);
+  border-left: 3px solid var(--ifm-color-physicalai-primary);
+}
+
+/* Alert styling */
+.alert {
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  border-left: 4px solid;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.alert--info {
+  background-color: rgba(31, 111, 255, 0.1);
+  border-left-color: var(--ifm-color-physicalai-primary);
+  color: white;
+}
+
+.alert--success {
+  background-color: rgba(74, 222, 128, 0.1);
+  border-left-color: var(--ifm-color-success);
+  color: white;
+}
+
+.alert--warning {
+  background-color: rgba(250, 204, 21, 0.1);
+  border-left-color: var(--ifm-color-warning);
+  color: white;
+}
+
+.alert--danger {
+  background-color: rgba(248, 113, 113, 0.1);
+  border-left-color: var(--ifm-color-danger);
+  color: white;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .chat-window {
+    width: calc(100vw - 30px);
+    height: 50vh;
+    bottom: 80px;
+    right: 15px;
+  }
+
+  .hero-banner {
+    padding: 3rem 0;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .feature-card {
+    padding: 1.5rem;
+  }
+
+  .footer {
+    padding: 2rem 0 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .chat-window {
+    width: calc(100vw - 20px);
+    height: 60vh;
+    bottom: 75px;
+    right: 10px;
+  }
+
+  .chat-header {
+    padding: 12px;
+  }
+
+  .messages-container {
+    padding: 12px;
+  }
+
+  .input-area {
+    padding: 12px;
+  }
+
+  .hero-banner {
+    padding: 2rem 0;
+  }
+}

@@ -1,56 +1,102 @@
-# Physical AI & Humanoid Robotics Book
+# RAG (Retrieval-Augmented Generation) Chatbot
 
-This repository contains the source materials for the Physical AI & Humanoid Robotics book, implemented as a Docusaurus documentation site.
+This RAG chatbot allows users to ask questions about the book content and receive AI-powered answers based on the documentation.
 
-## Project Structure
+## Features
 
-```
-docs/                   # Docusaurus documentation site
-├── docs/               # Main book content
-│   ├── module-1-the-robotic-nervous-system/
-│   ├── module-2-the-digital-twin/
-│   ├── module-3-the-ai-robot-brain/
-│   ├── module-4-vision-language-action/
-│   ├── assets/         # Diagrams and code examples
-│   ├── intro.md
-│   └── getting-started.md
-├── src/                # Custom components and CSS
-├── static/             # Static assets
-├── docusaurus.config.ts # Site configuration
-├── sidebars.ts         # Navigation structure
-└── package.json        # Dependencies
-specs/                  # Specification and planning documents
-└── 001-physical-ai-book/ # Feature specifications
-```
+- **Context-aware responses**: Answers based on selected text
+- **Floating chat interface**: Always accessible on any page
+- **Persistent conversation history**: Maintains context during session
+- **Source attribution**: Shows which documents contributed to the answer
+- **Text selection integration**: Users can select text to provide context for questions
+
+## Architecture
+
+- **Frontend**: React component embedded in Docusaurus
+- **Backend**: FastAPI server with OpenAI integration
+- **Vector Store**: Qdrant for document embeddings
+- **Database**: Neon Serverless Postgres for metadata
+- **Language Model**: OpenAI GPT for response generation
 
 ## Setup Instructions
 
-1. **Clone the repository**
-   ```bash
-   git clone [repository-url]
-   cd [repository-name]
-   ```
+### 1. Install Backend Dependencies
 
-2. **Install dependencies**
-   ```bash
-   cd docs
-   npm install
-   # or
-   yarn install
-   ```
+```bash
+cd rag_backend
+pip install -r requirements.txt
+```
 
-3. **Start the development server**
-   ```bash
-   npm run start
-   # or
-   yarn start
-   ```
-   This will start a local development server at `http://localhost:3000` with hot reloading enabled.
+**Note for Windows users:** If you encounter issues installing packages (especially numpy, psycopg2), you may need to install pre-compiled wheels:
 
-## Contributing
+```bash
+pip install --only-binary=all numpy
+pip install psycopg2-binary
+pip install -r requirements.txt
+```
 
-See `docs/README.md` for details on contributing to the book content.
+For a simpler setup without RAG functionality, you can install just the authentication dependencies:
 
-## License
+```bash
+pip install fastapi uvicorn python-dotenv
+```
 
-This educational content is provided under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+### 2. Configure Environment Variables
+
+Create a `.env` file in the `rag_backend` directory:
+
+```bash
+copy .env.example .env  # On Windows
+# or cp .env.example .env on Linux/Mac
+```
+
+Then update the values:
+
+- `OPENAI_API_KEY`: Your OpenAI API key
+- `QDRANT_URL`: Your QDRant instance URL
+- `QDRANT_API_KEY`: Your QDrant API key (if using cloud)
+- `NEON_DB_URL`: Your Neon PostgreSQL connection string
+
+### 3. Ingest Documentation
+
+Run the ingestion script to populate the vector database:
+
+```bash
+python ingest_docs.py
+```
+
+### 4. Start the Backend Server
+
+```bash
+cd rag_backend
+uvicorn main:app --reload
+```
+
+The backend will be available at `http://localhost:8000` with both RAG and authentication endpoints.
+
+### 5. Run the Docusaurus Site
+
+In a separate terminal:
+
+```bash
+cd docs
+npm install
+npm start
+```
+
+The chatbot will appear as a floating button on all documentation pages.
+
+## How It Works
+
+1. **Document Ingestion**: Documentation files are loaded, split into chunks, and stored as vector embeddings in Qdrant.
+2. **Query Processing**: When a user submits a question, it's processed with any selected text as additional context.
+3. **Retrieval**: Similar document chunks are retrieved from the vector store.
+4. **Generation**: OpenAI generates a response based on the question and retrieved context.
+5. **Response**: The answer is displayed in the chat interface along with source references.
+
+## Customization
+
+You can customize the chatbot by modifying:
+- `docs/src/components/RAGChatbot.jsx`: Main chat interface
+- `rag_backend/main.py`: Backend API logic
+- `rag_backend/ingest_docs.py`: Document ingestion pipeline

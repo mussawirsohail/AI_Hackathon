@@ -8,11 +8,16 @@
   "permalink": "/docs/tutorial-extras/translate-your-site",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/physical-ai/humanoid-robotics-book/docs/tutorial-extras/translate-your-site.md",
+  "editUrl": "https://github.com/your-org/physical-ai-book/edit/main/docs/tutorial-extras/translate-your-site.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
   }
 }

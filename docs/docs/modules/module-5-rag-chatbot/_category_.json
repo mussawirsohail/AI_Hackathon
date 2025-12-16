@@ -1,0 +1,10 @@
+{
+  "label": "Physical AI & Humanoid Robotics Assistant",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "title": "Physical AI & Humanoid Robotics Assistant",
+    "description": "A RAG chatbot specialized for Physical AI & Humanoid Robotics content",
+    "slug": "/modules/module-5-rag-chatbot"
+  }
+}
