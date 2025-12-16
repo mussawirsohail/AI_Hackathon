@@ -1,201 +1,166 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/Hackathon_1_By_Mussawir/docs/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/Hackathon_1_By_Mussawir/docs/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/intro"
             },
             {
               "id": "modules/module-1-introduction/lesson-1-overview",
-              "path": "/docs/modules/module-1-introduction/lesson-1-overview"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-1-overview"
             },
             {
               "id": "modules/module-1-introduction/lesson-2-objectives",
-              "path": "/docs/modules/module-1-introduction/lesson-2-objectives"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-2-objectives"
             },
             {
               "id": "modules/module-1-introduction/lesson-3-key-concepts",
-              "path": "/docs/modules/module-1-introduction/lesson-3-key-concepts"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-3-key-concepts"
             },
             {
               "id": "modules/module-1-ros2/lesson-1-introduction-to-ros2",
-              "path": "/docs/modules/module-1-ros2/lesson-1-introduction-to-ros2",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-1-introduction-to-ros2"
             },
             {
               "id": "modules/module-1-ros2/lesson-2-nodes-topics-services",
-              "path": "/docs/modules/module-1-ros2/lesson-2-nodes-topics-services",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-2-nodes-topics-services"
             },
             {
               "id": "modules/module-1-ros2/lesson-3-bridging-and-urdf",
-              "path": "/docs/modules/module-1-ros2/lesson-3-bridging-and-urdf",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-3-bridging-and-urdf"
             },
             {
               "id": "modules/module-2-basics/lesson-1-foundations",
-              "path": "/docs/modules/module-2-basics/lesson-1-foundations"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-1-foundations"
             },
             {
               "id": "modules/module-2-basics/lesson-2-practice",
-              "path": "/docs/modules/module-2-basics/lesson-2-practice"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-2-practice"
             },
             {
               "id": "modules/module-2-basics/lesson-3-quiz",
-              "path": "/docs/modules/module-2-basics/lesson-3-quiz"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-3-quiz"
             },
             {
               "id": "modules/module-2-digital-twin/lesson-1-gazebo-simulation",
-              "path": "/docs/modules/module-2-digital-twin/lesson-1-gazebo-simulation",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-1-gazebo-simulation"
             },
             {
               "id": "modules/module-2-digital-twin/lesson-2-sensor-simulation",
-              "path": "/docs/modules/module-2-digital-twin/lesson-2-sensor-simulation",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-2-sensor-simulation"
             },
             {
               "id": "modules/module-2-digital-twin/lesson-3-unity-integration",
-              "path": "/docs/modules/module-2-digital-twin/lesson-3-unity-integration",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-3-unity-integration"
             },
             {
               "id": "modules/module-3-advanced/lesson-1-advanced-topics",
-              "path": "/docs/modules/module-3-advanced/lesson-1-advanced-topics"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-1-advanced-topics"
             },
             {
               "id": "modules/module-3-advanced/lesson-2-case-studies",
-              "path": "/docs/modules/module-3-advanced/lesson-2-case-studies"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-2-case-studies"
             },
             {
               "id": "modules/module-3-advanced/lesson-3-summary",
-              "path": "/docs/modules/module-3-advanced/lesson-3-summary"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-3-summary"
             },
             {
               "id": "modules/module-3-ai-brain/lesson-1-introduction-to-isaac",
-              "path": "/docs/modules/module-3-ai-brain/lesson-1-introduction-to-isaac",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-1-introduction-to-isaac"
             },
             {
               "id": "modules/module-3-ai-brain/lesson-2-isaac-sim-synthetic-data",
-              "path": "/docs/modules/module-3-ai-brain/lesson-2-isaac-sim-synthetic-data",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-2-isaac-sim-synthetic-data"
             },
             {
               "id": "modules/module-3-ai-brain/lesson-3-isaac-ros-nav2",
-              "path": "/docs/modules/module-3-ai-brain/lesson-3-isaac-ros-nav2",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-3-isaac-ros-nav2"
             },
             {
               "id": "modules/module-4-vla/lesson-1-introduction-to-vla",
-              "path": "/docs/modules/module-4-vla/lesson-1-introduction-to-vla",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-1-introduction-to-vla"
             },
             {
               "id": "modules/module-4-vla/lesson-2-voice-to-action",
-              "path": "/docs/modules/module-4-vla/lesson-2-voice-to-action",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-2-voice-to-action"
             },
             {
               "id": "modules/module-4-vla/lesson-3-cognitive-planning",
-              "path": "/docs/modules/module-4-vla/lesson-3-cognitive-planning",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-3-cognitive-planning"
             },
             {
               "id": "modules/module-5-rag-chatbot/lesson-1-introduction",
-              "path": "/docs/modules/module-5-rag-chatbot/lesson-1-introduction",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-1-introduction"
             },
             {
               "id": "modules/module-5-rag-chatbot/lesson-2-authentication",
-              "path": "/docs/modules/module-5-rag-chatbot/lesson-2-authentication",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-2-authentication"
             },
             {
               "id": "modules/module-5-rag-chatbot/lesson-3-vector-database",
-              "path": "/docs/modules/module-5-rag-chatbot/lesson-3-vector-database",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-3-vector-database"
             },
             {
               "id": "modules/module-5-rag-chatbot/lesson-4-rag-backend",
-              "path": "/docs/modules/module-5-rag-chatbot/lesson-4-rag-backend",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-4-rag-backend"
             },
             {
               "id": "modules/module-5-rag-chatbot/lesson-5-frontend-ui",
-              "path": "/docs/modules/module-5-rag-chatbot/lesson-5-frontend-ui",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-5-frontend-ui"
             },
             {
               "id": "modules/module-5-rag-chatbot/lesson-6-integration-deployment",
-              "path": "/docs/modules/module-5-rag-chatbot/lesson-6-integration-deployment",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-6-integration-deployment"
             },
             {
               "id": "modules/module-5-rag-chatbot/lesson-7-physical-ai-assistant",
-              "path": "/docs/modules/module-5-rag-chatbot/lesson-7-physical-ai-assistant",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-7-physical-ai-assistant"
             },
             {
               "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/congratulations"
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-blog-post"
             },
             {
               "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-document"
             },
             {
               "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-page"
             },
             {
               "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/deploy-your-site"
             },
             {
               "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/markdown-features"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/tutorial-extras/manage-docs-versions"
             },
             {
               "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
+              "path": "/Hackathon_1_By_Mussawir/docs/docs/tutorial-extras/translate-your-site"
             }
           ],
           "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/docs/intro",
-                "label": "intro"
-              }
-            }
-          }
+          "sidebars": {}
         }
       ],
       "breadcrumbs": true

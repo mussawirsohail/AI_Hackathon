@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://mussawirsohail.github.io',
+  url: 'https://mussawirsoomro5.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Hackathon_1_By_Mussawir/docs/',
+  baseUrl: '/Hac/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'mussawirsohail', // Usually your GitHub org/user name.
-  projectName: 'Hackathon_1_By_Mussawir', // Usually your repo name.
+  organizationName: 'mussawirsoomro5', // Usually your GitHub org/user name.
+  projectName: 'Hac', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -40,13 +40,14 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: './docs',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/physical-ai/humanoid-robotics-book/',
+          editUrl: ({docPath}) => `https://github.com/mussawirsoomro5/Hac/edit/main/docs/${docPath}`,
         },
         blog: {
+          path: './blog',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -54,8 +55,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/physical-ai/humanoid-robotics-book/',
+          editUrl: ({blogPath}) => `https://github.com/mussawirsoomro5/Hac/edit/main/blog/${blogPath}`,
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',

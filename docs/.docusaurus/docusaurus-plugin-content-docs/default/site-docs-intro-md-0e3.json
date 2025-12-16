@@ -5,19 +5,14 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/Hackathon_1_By_Mussawir/docs/docs/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/physical-ai-book/edit/main/docs/intro.md",
+  "editUrl": "https://github.com/physical-ai/humanoid-robotics-book/docs/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "Lesson 1: Introduction to ROS 2",
-    "permalink": "/docs/modules/module-1-ros2/lesson-1-introduction-to-ros2"
   }
 }

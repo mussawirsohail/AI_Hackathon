@@ -3,344 +3,281 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog', 'ac3'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/archive',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/archive', 'd92'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/authors',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/authors', '970'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/authors/all-sebastien-lorber-articles', '9d6'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/authors/yangshun',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/authors/yangshun', '8ed'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/first-blog-post',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/first-blog-post', '828'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/long-blog-post',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/long-blog-post', '3dc'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'b2f'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/mdx-blog-post',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/mdx-blog-post', 'b09'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '182'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/tags',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/tags', '9db'),
     exact: true
   },
   {
-    path: '/blog/authors',
-    component: ComponentCreator('/blog/authors', '0b7'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/tags/docusaurus',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/tags/docusaurus', '741'),
     exact: true
   },
   {
-    path: '/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/tags/facebook',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/tags/facebook', '1df'),
     exact: true
   },
   {
-    path: '/blog/authors/yangshun',
-    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/tags/hello',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/tags/hello', '605'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '89a'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/tags/hola',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/tags/hola', '092'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '9ad'),
+    path: '/Hackathon_1_By_Mussawir/docs/blog/welcome',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/blog/welcome', '1dc'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
+    path: '/Hackathon_1_By_Mussawir/docs/chat',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/chat', '892'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '287'),
+    path: '/Hackathon_1_By_Mussawir/docs/markdown-page',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/markdown-page', '67f'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '704'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '858'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '299'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '00d'),
-    exact: true
-  },
-  {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'd2b'),
-    exact: true
-  },
-  {
-    path: '/chat',
-    component: ComponentCreator('/chat', 'aac'),
-    exact: true
-  },
-  {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
-    exact: true
-  },
-  {
-    path: '/docs',
-    component: ComponentCreator('/docs', 'fca'),
+    path: '/Hackathon_1_By_Mussawir/docs/docs',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs', '6b9'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '04a'),
+        path: '/Hackathon_1_By_Mussawir/docs/docs',
+        component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs', 'fe1'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'a9b'),
+            path: '/Hackathon_1_By_Mussawir/docs/docs',
+            component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs', 'a51'),
             routes: [
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/modules/module-1-introduction/lesson-1-overview',
-                component: ComponentCreator('/docs/modules/module-1-introduction/lesson-1-overview', '98c'),
+                path: '/Hackathon_1_By_Mussawir/docs/docs/intro',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/intro', '253'),
                 exact: true
               },
               {
-                path: '/docs/modules/module-1-introduction/lesson-2-objectives',
-                component: ComponentCreator('/docs/modules/module-1-introduction/lesson-2-objectives', 'e52'),
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-1-overview',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-1-overview', '3f6'),
                 exact: true
               },
               {
-                path: '/docs/modules/module-1-introduction/lesson-3-key-concepts',
-                component: ComponentCreator('/docs/modules/module-1-introduction/lesson-3-key-concepts', '3a3'),
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-2-objectives',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-2-objectives', '938'),
                 exact: true
               },
               {
-                path: '/docs/modules/module-1-ros2/lesson-1-introduction-to-ros2',
-                component: ComponentCreator('/docs/modules/module-1-ros2/lesson-1-introduction-to-ros2', '0c2'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/modules/module-1-ros2/lesson-2-nodes-topics-services',
-                component: ComponentCreator('/docs/modules/module-1-ros2/lesson-2-nodes-topics-services', 'b65'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/modules/module-1-ros2/lesson-3-bridging-and-urdf',
-                component: ComponentCreator('/docs/modules/module-1-ros2/lesson-3-bridging-and-urdf', 'a9b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/modules/module-2-basics/lesson-1-foundations',
-                component: ComponentCreator('/docs/modules/module-2-basics/lesson-1-foundations', 'b5c'),
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-3-key-concepts',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-3-key-concepts', 'd66'),
                 exact: true
               },
               {
-                path: '/docs/modules/module-2-basics/lesson-2-practice',
-                component: ComponentCreator('/docs/modules/module-2-basics/lesson-2-practice', 'db3'),
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-1-introduction-to-ros2',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-1-introduction-to-ros2', '199'),
                 exact: true
               },
               {
-                path: '/docs/modules/module-2-basics/lesson-3-quiz',
-                component: ComponentCreator('/docs/modules/module-2-basics/lesson-3-quiz', 'f2c'),
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-2-nodes-topics-services',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-2-nodes-topics-services', '95a'),
                 exact: true
               },
               {
-                path: '/docs/modules/module-2-digital-twin/lesson-1-gazebo-simulation',
-                component: ComponentCreator('/docs/modules/module-2-digital-twin/lesson-1-gazebo-simulation', 'ca7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/modules/module-2-digital-twin/lesson-2-sensor-simulation',
-                component: ComponentCreator('/docs/modules/module-2-digital-twin/lesson-2-sensor-simulation', '0cf'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/modules/module-2-digital-twin/lesson-3-unity-integration',
-                component: ComponentCreator('/docs/modules/module-2-digital-twin/lesson-3-unity-integration', '7f5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/modules/module-3-advanced/lesson-1-advanced-topics',
-                component: ComponentCreator('/docs/modules/module-3-advanced/lesson-1-advanced-topics', '9fe'),
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-3-bridging-and-urdf',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-3-bridging-and-urdf', '55f'),
                 exact: true
               },
               {
-                path: '/docs/modules/module-3-advanced/lesson-2-case-studies',
-                component: ComponentCreator('/docs/modules/module-3-advanced/lesson-2-case-studies', 'fdd'),
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-1-foundations',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-1-foundations', 'bbb'),
                 exact: true
               },
               {
-                path: '/docs/modules/module-3-advanced/lesson-3-summary',
-                component: ComponentCreator('/docs/modules/module-3-advanced/lesson-3-summary', 'd19'),
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-2-practice',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-2-practice', '0a6'),
                 exact: true
               },
               {
-                path: '/docs/modules/module-3-ai-brain/lesson-1-introduction-to-isaac',
-                component: ComponentCreator('/docs/modules/module-3-ai-brain/lesson-1-introduction-to-isaac', '564'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-3-quiz',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-3-quiz', '2cb'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-3-ai-brain/lesson-2-isaac-sim-synthetic-data',
-                component: ComponentCreator('/docs/modules/module-3-ai-brain/lesson-2-isaac-sim-synthetic-data', '9a2'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-1-gazebo-simulation',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-1-gazebo-simulation', '90b'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-3-ai-brain/lesson-3-isaac-ros-nav2',
-                component: ComponentCreator('/docs/modules/module-3-ai-brain/lesson-3-isaac-ros-nav2', '012'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-2-sensor-simulation',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-2-sensor-simulation', 'a13'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-4-vla/lesson-1-introduction-to-vla',
-                component: ComponentCreator('/docs/modules/module-4-vla/lesson-1-introduction-to-vla', '894'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-3-unity-integration',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-3-unity-integration', '53c'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-4-vla/lesson-2-voice-to-action',
-                component: ComponentCreator('/docs/modules/module-4-vla/lesson-2-voice-to-action', '885'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-1-advanced-topics',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-1-advanced-topics', '096'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-4-vla/lesson-3-cognitive-planning',
-                component: ComponentCreator('/docs/modules/module-4-vla/lesson-3-cognitive-planning', 'eff'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-2-case-studies',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-2-case-studies', '2b0'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-5-rag-chatbot/lesson-1-introduction',
-                component: ComponentCreator('/docs/modules/module-5-rag-chatbot/lesson-1-introduction', '922'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-3-summary',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-3-summary', '38f'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-5-rag-chatbot/lesson-2-authentication',
-                component: ComponentCreator('/docs/modules/module-5-rag-chatbot/lesson-2-authentication', 'e36'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-1-introduction-to-isaac',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-1-introduction-to-isaac', 'd06'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-5-rag-chatbot/lesson-3-vector-database',
-                component: ComponentCreator('/docs/modules/module-5-rag-chatbot/lesson-3-vector-database', '424'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-2-isaac-sim-synthetic-data',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-2-isaac-sim-synthetic-data', 'e36'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-5-rag-chatbot/lesson-4-rag-backend',
-                component: ComponentCreator('/docs/modules/module-5-rag-chatbot/lesson-4-rag-backend', 'ac4'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-3-isaac-ros-nav2',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-3-isaac-ros-nav2', 'b75'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-5-rag-chatbot/lesson-5-frontend-ui',
-                component: ComponentCreator('/docs/modules/module-5-rag-chatbot/lesson-5-frontend-ui', '05c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-1-introduction-to-vla',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-1-introduction-to-vla', 'bf3'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-5-rag-chatbot/lesson-6-integration-deployment',
-                component: ComponentCreator('/docs/modules/module-5-rag-chatbot/lesson-6-integration-deployment', '7ce'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-2-voice-to-action',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-2-voice-to-action', 'cc4'),
+                exact: true
               },
               {
-                path: '/docs/modules/module-5-rag-chatbot/lesson-7-physical-ai-assistant',
-                component: ComponentCreator('/docs/modules/module-5-rag-chatbot/lesson-7-physical-ai-assistant', '948'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-3-cognitive-planning',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-3-cognitive-planning', '6b6'),
+                exact: true
               },
               {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-1-introduction',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-1-introduction', '548'),
+                exact: true
               },
               {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-2-authentication',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-2-authentication', '010'),
+                exact: true
               },
               {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-3-vector-database',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-3-vector-database', 'e5d'),
+                exact: true
               },
               {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-4-rag-backend',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-4-rag-backend', '2a8'),
+                exact: true
               },
               {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-5-frontend-ui',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-5-frontend-ui', '2e8'),
+                exact: true
               },
               {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-6-integration-deployment',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-6-integration-deployment', '739'),
+                exact: true
               },
               {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-7-physical-ai-assistant',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-7-physical-ai-assistant', '838'),
+                exact: true
               },
               {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/congratulations', 'e6a'),
+                exact: true
+              },
+              {
+                path: '/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-blog-post', 'e08'),
+                exact: true
+              },
+              {
+                path: '/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-document', '027'),
+                exact: true
+              },
+              {
+                path: '/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-page', '40c'),
+                exact: true
+              },
+              {
+                path: '/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/deploy-your-site', '9e4'),
+                exact: true
+              },
+              {
+                path: '/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/markdown-features', 'bdb'),
+                exact: true
+              },
+              {
+                path: '/Hackathon_1_By_Mussawir/docs/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/tutorial-extras/manage-docs-versions', 'e53'),
+                exact: true
+              },
+              {
+                path: '/Hackathon_1_By_Mussawir/docs/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/docs/tutorial-extras/translate-your-site', 'de0'),
+                exact: true
               }
             ]
           }
@@ -349,8 +286,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '2e1'),
+    path: '/Hackathon_1_By_Mussawir/docs/',
+    component: ComponentCreator('/Hackathon_1_By_Mussawir/docs/', '50a'),
     exact: true
   },
   {

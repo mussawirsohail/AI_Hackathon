@@ -1,427 +1,384 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/Hackathon_1_By_Mussawir/docs/blog-ac3": {
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "36994c47"
     },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/blog-b2f": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
-    "__context": {
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blogc-15-573"
+    "__props": "505cedfe"
   },
-  "/blog/archive-182": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+  "/Hackathon_1_By_Mussawir/docs/blog/archive-d92": {
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "__props": "__props---blog-archivef-81-229"
+    "__props": "5edead76"
   },
-  "/blog/authors-0b7": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+  "/Hackathon_1_By_Mussawir/docs/blog/authors-970": {
+    "__comp": "621db11d",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authorsef-8-44f"
+    "sidebar": "814f3328",
+    "__props": "41b8e666"
   },
-  "/blog/authors/all-sebastien-lorber-articles-4a1": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+  "/Hackathon_1_By_Mussawir/docs/blog/authors/all-sebastien-lorber-articles-9d6": {
+    "__comp": "33fc5bb8",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authors-all-sebastien-lorber-articlesc-9-c-639"
+    "sidebar": "814f3328",
+    "__props": "34020144"
   },
-  "/blog/authors/yangshun-a68": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+  "/Hackathon_1_By_Mussawir/docs/blog/authors/yangshun-8ed": {
+    "__comp": "33fc5bb8",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authors-yangshun-1-de-d0c"
+    "sidebar": "814f3328",
+    "__props": "645dcf30"
   },
-  "/blog/first-blog-post-89a": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+  "/Hackathon_1_By_Mussawir/docs/blog/first-blog-post-828": {
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-first-blog-poste-27-4a1"
+    "sidebar": "814f3328",
+    "content": "e273c56f"
   },
-  "/blog/long-blog-post-9ad": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+  "/Hackathon_1_By_Mussawir/docs/blog/long-blog-post-3dc": {
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-long-blog-post-736-bc7"
+    "sidebar": "814f3328",
+    "content": "73664a40"
   },
-  "/blog/mdx-blog-post-e9f": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+  "/Hackathon_1_By_Mussawir/docs/blog/mdx-blog-post-b09": {
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-mdx-blog-post-593-37b"
+    "sidebar": "814f3328",
+    "content": "59362658"
   },
-  "/blog/tags-287": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+  "/Hackathon_1_By_Mussawir/docs/blog/tags-9db": {
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-tags-3-a-2-fa2"
+    "sidebar": "814f3328",
+    "__props": "8299b346"
   },
-  "/blog/tags/docusaurus-704": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/Hackathon_1_By_Mussawir/docs/blog/tags/docusaurus-741": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blog-tags-docusaurus-321-832"
+    "__props": "606cf6a2"
   },
-  "/blog/tags/facebook-858": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/Hackathon_1_By_Mussawir/docs/blog/tags/facebook-1df": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       }
     ],
-    "__props": "__props---blog-tags-facebooke-5-a-514"
+    "__props": "1787bde5"
   },
-  "/blog/tags/hello-299": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/Hackathon_1_By_Mussawir/docs/blog/tags/hello-605": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       }
     ],
-    "__props": "__props---blog-tags-hellof-82-2fd"
+    "__props": "b746e7e2"
   },
-  "/blog/tags/hola-00d": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+  "/Hackathon_1_By_Mussawir/docs/blog/tags/hola-092": {
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blog-tags-hola-5-e-9-9a3"
+    "__props": "c72b300c"
   },
-  "/blog/welcome-d2b": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+  "/Hackathon_1_By_Mussawir/docs/blog/welcome-1dc": {
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomed-9-f-ffb"
+    "sidebar": "814f3328",
+    "content": "d9f32620"
   },
-  "/chat-aac": {
-    "__comp": "__comp---site-src-pages-chat-jsxce-5-ee2",
+  "/Hackathon_1_By_Mussawir/docs/chat-892": {
+    "__comp": "ce5cdbdb",
     "__context": {
-      "plugin": "plugin---chata-74-e74"
+      "plugin": "a7456010"
     },
-    "config": "config---chat-5-e-9-b86"
+    "config": "5e9f5e1a"
   },
-  "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+  "/Hackathon_1_By_Mussawir/docs/markdown-page-67f": {
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---chata-74-e74"
+      "plugin": "a7456010"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
-  "/docs-fca": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+  "/Hackathon_1_By_Mussawir/docs/docs-6b9": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "aba21aa0"
     }
   },
-  "/docs-04a": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+  "/Hackathon_1_By_Mussawir/docs/docs-fe1": {
+    "__comp": "a7bd4aaa",
+    "__props": "e91fee9b"
   },
-  "/docs-a9b": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+  "/Hackathon_1_By_Mussawir/docs/docs-a51": {
+    "__comp": "a94703ab"
   },
-  "/docs/intro-61d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+  "/Hackathon_1_By_Mussawir/docs/docs/intro-253": {
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
-  "/docs/modules/module-1-introduction/lesson-1-overview-98c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-1-introduction-lesson-1-overviewe-4-f-25f"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-1-overview-3f6": {
+    "__comp": "17896441",
+    "content": "e4f0ec06"
   },
-  "/docs/modules/module-1-introduction/lesson-2-objectives-e52": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-1-introduction-lesson-2-objectives-7-ee-527"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-2-objectives-938": {
+    "__comp": "17896441",
+    "content": "7ee4f561"
   },
-  "/docs/modules/module-1-introduction/lesson-3-key-concepts-3a3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-1-introduction-lesson-3-key-concepts-472-62c"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-introduction/lesson-3-key-concepts-d66": {
+    "__comp": "17896441",
+    "content": "472fdd8a"
   },
-  "/docs/modules/module-1-ros2/lesson-1-introduction-to-ros2-0c2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-1-ros-2-lesson-1-introduction-to-ros-24-ae-e62"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-1-introduction-to-ros2-199": {
+    "__comp": "17896441",
+    "content": "4aee01f7"
   },
-  "/docs/modules/module-1-ros2/lesson-2-nodes-topics-services-b65": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-1-ros-2-lesson-2-nodes-topics-services-24-a-2c9"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-2-nodes-topics-services-95a": {
+    "__comp": "17896441",
+    "content": "24abe111"
   },
-  "/docs/modules/module-1-ros2/lesson-3-bridging-and-urdf-a9b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-1-ros-2-lesson-3-bridging-and-urdfc-97-880"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-1-ros2/lesson-3-bridging-and-urdf-55f": {
+    "__comp": "17896441",
+    "content": "c9782df2"
   },
-  "/docs/modules/module-2-basics/lesson-1-foundations-b5c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-2-basics-lesson-1-foundationsdfb-989"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-1-foundations-bbb": {
+    "__comp": "17896441",
+    "content": "dfb7a434"
   },
-  "/docs/modules/module-2-basics/lesson-2-practice-db3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-2-basics-lesson-2-practice-32-c-5d4"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-2-practice-0a6": {
+    "__comp": "17896441",
+    "content": "32cc0846"
   },
-  "/docs/modules/module-2-basics/lesson-3-quiz-f2c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-2-basics-lesson-3-quiz-4-ae-a87"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-basics/lesson-3-quiz-2cb": {
+    "__comp": "17896441",
+    "content": "4ae88d06"
   },
-  "/docs/modules/module-2-digital-twin/lesson-1-gazebo-simulation-ca7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-2-digital-twin-lesson-1-gazebo-simulationf-93-766"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-1-gazebo-simulation-90b": {
+    "__comp": "17896441",
+    "content": "f930254f"
   },
-  "/docs/modules/module-2-digital-twin/lesson-2-sensor-simulation-0cf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-2-digital-twin-lesson-2-sensor-simulation-60-e-098"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-2-sensor-simulation-a13": {
+    "__comp": "17896441",
+    "content": "60e6184c"
   },
-  "/docs/modules/module-2-digital-twin/lesson-3-unity-integration-7f5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-2-digital-twin-lesson-3-unity-integration-20-d-b27"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-2-digital-twin/lesson-3-unity-integration-53c": {
+    "__comp": "17896441",
+    "content": "20d5ec94"
   },
-  "/docs/modules/module-3-advanced/lesson-1-advanced-topics-9fe": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-3-advanced-lesson-1-advanced-topics-1-b-9-421"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-1-advanced-topics-096": {
+    "__comp": "17896441",
+    "content": "1b95b425"
   },
-  "/docs/modules/module-3-advanced/lesson-2-case-studies-fdd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-3-advanced-lesson-2-case-studies-798-f82"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-2-case-studies-2b0": {
+    "__comp": "17896441",
+    "content": "7984ace2"
   },
-  "/docs/modules/module-3-advanced/lesson-3-summary-d19": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-3-advanced-lesson-3-summary-62-e-1d5"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-advanced/lesson-3-summary-38f": {
+    "__comp": "17896441",
+    "content": "62e22975"
   },
-  "/docs/modules/module-3-ai-brain/lesson-1-introduction-to-isaac-564": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-3-ai-brain-lesson-1-introduction-to-isaac-466-954"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-1-introduction-to-isaac-d06": {
+    "__comp": "17896441",
+    "content": "4667d7ed"
   },
-  "/docs/modules/module-3-ai-brain/lesson-2-isaac-sim-synthetic-data-9a2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-3-ai-brain-lesson-2-isaac-sim-synthetic-datada-2-166"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-2-isaac-sim-synthetic-data-e36": {
+    "__comp": "17896441",
+    "content": "da24a096"
   },
-  "/docs/modules/module-3-ai-brain/lesson-3-isaac-ros-nav2-012": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-3-ai-brain-lesson-3-isaac-ros-nav-2462-641"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-3-ai-brain/lesson-3-isaac-ros-nav2-b75": {
+    "__comp": "17896441",
+    "content": "462e4824"
   },
-  "/docs/modules/module-4-vla/lesson-1-introduction-to-vla-894": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-4-vla-lesson-1-introduction-to-vla-616-979"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-1-introduction-to-vla-bf3": {
+    "__comp": "17896441",
+    "content": "6163d36a"
   },
-  "/docs/modules/module-4-vla/lesson-2-voice-to-action-885": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-4-vla-lesson-2-voice-to-action-94-f-9c4"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-2-voice-to-action-cc4": {
+    "__comp": "17896441",
+    "content": "94f6ea84"
   },
-  "/docs/modules/module-4-vla/lesson-3-cognitive-planning-eff": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-4-vla-lesson-3-cognitive-planning-9-fe-24e"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-4-vla/lesson-3-cognitive-planning-6b6": {
+    "__comp": "17896441",
+    "content": "9fef17d2"
   },
-  "/docs/modules/module-5-rag-chatbot/lesson-1-introduction-922": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-5-rag-chatbot-lesson-1-introductionb-7-a-6c3"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-1-introduction-548": {
+    "__comp": "17896441",
+    "content": "b7a089cb"
   },
-  "/docs/modules/module-5-rag-chatbot/lesson-2-authentication-e36": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-5-rag-chatbot-lesson-2-authentication-710-0ab"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-2-authentication-010": {
+    "__comp": "17896441",
+    "content": "7102cbda"
   },
-  "/docs/modules/module-5-rag-chatbot/lesson-3-vector-database-424": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-5-rag-chatbot-lesson-3-vector-databaseeec-bf6"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-3-vector-database-e5d": {
+    "__comp": "17896441",
+    "content": "eec29c4b"
   },
-  "/docs/modules/module-5-rag-chatbot/lesson-4-rag-backend-ac4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-5-rag-chatbot-lesson-4-rag-backend-621-362"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-4-rag-backend-2a8": {
+    "__comp": "17896441",
+    "content": "6216f420"
   },
-  "/docs/modules/module-5-rag-chatbot/lesson-5-frontend-ui-05c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-5-rag-chatbot-lesson-5-frontend-ui-925-4e9"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-5-frontend-ui-2e8": {
+    "__comp": "17896441",
+    "content": "925a2f4f"
   },
-  "/docs/modules/module-5-rag-chatbot/lesson-6-integration-deployment-7ce": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-5-rag-chatbot-lesson-6-integration-deployment-713-c23"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-6-integration-deployment-739": {
+    "__comp": "17896441",
+    "content": "7134fb1a"
   },
-  "/docs/modules/module-5-rag-chatbot/lesson-7-physical-ai-assistant-948": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-module-5-rag-chatbot-lesson-7-physical-ai-assistant-642-1a3"
+  "/Hackathon_1_By_Mussawir/docs/docs/modules/module-5-rag-chatbot/lesson-7-physical-ai-assistant-838": {
+    "__comp": "17896441",
+    "content": "6422e172"
   },
-  "/docs/tutorial-basics/congratulations-458": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-congratulations-822-958"
+  "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/congratulations-e6a": {
+    "__comp": "17896441",
+    "content": "822bd8ab"
   },
-  "/docs/tutorial-basics/create-a-blog-post-108": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-blog-post-533-e85"
+  "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-blog-post-e08": {
+    "__comp": "17896441",
+    "content": "533a09ca"
   },
-  "/docs/tutorial-basics/create-a-document-8fc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-078"
+  "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-document-027": {
+    "__comp": "17896441",
+    "content": "1e4232ab"
   },
-  "/docs/tutorial-basics/create-a-page-951": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-e19"
+  "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/create-a-page-40c": {
+    "__comp": "17896441",
+    "content": "5c868d36"
   },
-  "/docs/tutorial-basics/deploy-your-site-4f5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-deploy-your-sitef-55-a3f"
+  "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/deploy-your-site-9e4": {
+    "__comp": "17896441",
+    "content": "f55d3e7a"
   },
-  "/docs/tutorial-basics/markdown-features-b05": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
+  "/Hackathon_1_By_Mussawir/docs/docs/tutorial-basics/markdown-features-bdb": {
+    "__comp": "17896441",
+    "content": "18c41134"
   },
-  "/docs/tutorial-extras/manage-docs-versions-978": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
+  "/Hackathon_1_By_Mussawir/docs/docs/tutorial-extras/manage-docs-versions-e53": {
+    "__comp": "17896441",
+    "content": "dff1c289"
   },
-  "/docs/tutorial-extras/translate-your-site-f9a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
+  "/Hackathon_1_By_Mussawir/docs/docs/tutorial-extras/translate-your-site-de0": {
+    "__comp": "17896441",
+    "content": "e44a2883"
   },
-  "/-2e1": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+  "/Hackathon_1_By_Mussawir/docs/-50a": {
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---chata-74-e74"
+      "plugin": "a7456010"
     },
-    "config": "config---chat-5-e-9-b86"
+    "config": "5e9f5e1a"
   }
 }
